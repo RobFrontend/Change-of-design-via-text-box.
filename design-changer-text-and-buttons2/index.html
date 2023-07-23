@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header grid">
+        <button class="btn-header btn-palette-1">Baby blue</button>
+        <button class="btn-header btn-palette-2">Calm dark</button>
+        <button class="btn-header btn-palette-3">Simple white</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Design changer buttons</h1>
+        <p class="p-palette">You are using Simple White Palette</p>
+      </div>
+      <div class="container">
+        <div class="box">
+          <h2>Simple White</h2>
+          <p>
+            Click on "CHOSE YOUR DESIGN MANUALLY" button to use text to select
+            your design. A selection box should pop up, followed by information
+            about your chosen design. If you don't make a selection or enter the
+            name incorrectly, Java Script should automatically select Simple
+            White design. Thank you for checking my project. I appreciate it.
+          </p>
+        </div>
+      </div>
+      <div class="container manually">
+        <button class="btn-prompt">Choose your design manually</button>
+      </div>
+      <div class="hidden btn-box-div">
+        <div class="btn-box">
+          <button class="btn-cancel">X</button>
+          <form>
+            <label for="name" class="label-name"
+              >Choose design: baby blue, calm dark, simple white:</label
+            >
+            <input
+              class="nameDesign"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="simple white"
+            />
+            <input class="submit" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="copyright">&copy; <span class="year">2025</span> robfrontend</p>
+    </footer>
+  </body>
+</html>
