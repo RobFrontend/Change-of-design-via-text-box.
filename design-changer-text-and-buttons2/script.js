@@ -1,3 +1,4 @@
+"use-strict";
 // //////////////////////////////////////////////////////////
 // DATE CURRENT YEAR
 const year = document.querySelector(".year");
@@ -34,6 +35,7 @@ btnPallete3.addEventListener("click", function () {
   pText.textContent = "You are using Simple White Palette";
   h2.textContent = "Simple White";
 });
+
 //////////////////////////////////////////////////////////////
 
 // ///////////////////////////////////////////////////////////
